@@ -1,0 +1,122 @@
+
+button {
+  height: 59px;
+  background-color: #fff;
+
+  font-size: 2rem;
+  border-radius: 3px;
+  border: 1px solid #c4c4c4;
+  background-color: transparent;
+
+  color: #333;
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    transparent 50%,
+    rgba(0, 0, 0, 0.04)
+  );
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.45),
+    inset 0 -1px 0 0 rgba(255, 255, 255, 0.15),
+    0 1px 0 0 rgba(255, 255, 255, 0.15);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.4);
+}
+
+.equals {
+  border-color: #337cac;
+  color: #fff;
+  padding: 10px;
+}
+
+.equals:hover {
+  border-color: rgb(20, 61, 2);
+  border-radius: 15px;
+  border-width: 2px;
+}
+
+html {
+  box-sizing: border-box;
+ font-size: 50%;
+}
+
+.calculator-screen {
+   padding-left: 10px;
+  border-radius: 15px;
+  width: 100%;
+  font-size: 8rem;
+  height: 150px;
+  border: none;
+  background-color: #918a8a;
+  color: #fff;
+  text-align: right;
+  padding-right: 20px;
+ 
+}
+
+.operator {
+  color: #a56767;
+}
+
+.clean {
+  background-color: #FE9F0B;
+  border-color: #a73131;
+  color: #fff;
+  font-size: 35px;
+}
+
+.clean:hover {
+  color: #000000;
+  border-color: red;
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+.common{
+  font-size: 35px;
+}
+
+.common:hover{
+  border-color: red;
+  border-radius: 15px;
+}
+
+.common_opr{
+  font-size: 35px;
+}
+
+.common_opr:hover{
+  border-color: rgb(20, 61, 2);
+  border-radius: 15px;
+  border-width: 2px;
+}
+
+.calculator {
+  border: 3px solid rgb(0, 0, 0);
+  transform: translate(-50%, -50%);
+  width: 40%;
+  border-radius: 15px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.calculator-keys {
+   padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+
+}
+
+button:hover {
+  background-color: #eaeaea;
+}
